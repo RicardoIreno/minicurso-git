@@ -49,6 +49,7 @@ Após a instalação, use os seguintes comandos no terminal para a configuraçã
 ```shell
 git config --global user.name "seu nome"
 git config --global user.email fulanodetal@exemplo.br
-git config --global core.editor "vscode"
+git config --global core.editor "editor-de-sua-preferencia"
 ```
 
+Ao configurar `core.editor`, é preciso que o editor a ser usado esteja configurado na variável PATH do sistema, mas a maioria dos editores de código já faz isso na instalação. O VS Code, por exemplo, adiciona a variável "vscode".
