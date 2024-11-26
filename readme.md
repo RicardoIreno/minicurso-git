@@ -98,3 +98,9 @@ Arquivos são *commitados* atravéz do comando `git commit`
 ```shell
 git commit -m "mensagem"
 ```
+
+Para ser o satus do repositório:
+
+```shell
+git status
+```
