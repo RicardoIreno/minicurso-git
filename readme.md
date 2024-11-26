@@ -87,20 +87,47 @@ git remote add git@github.com:seunickname/seurepositotio.git
 - Qualquer arquivo que não foi adicionado ao registro, e também não está na staging area, são mostrados em vermelho.
 
 
-Os arquivos são inseridos na *staging area* atravéz do comando:
+**Inserir arquivos na *staging area*:**
 
 ```shell
 git add nome-do-arquivo
 ```
 
-Arquivos são *commitados* atravéz do comando `git commit`
+**Gravar os arquivos no registro (commit)**:
 
 ```shell
 git commit -m "mensagem"
 ```
 
-Para ser o satus do repositório:
+**Verificar o status do repositório:**
 
 ```shell
 git status
 ```
+
+**Verificar o histórico de commits:**
+
+```shell
+git log
+```
+
+Apenas os três últimos:
+```shell
+git log -3
+```
+
+De um commit A  a um commit B:
+```shell
+git log A...B
+```
+
+De um autor específico:
+```shell
+git log --author=usuario
+```
+
+**Para verificar as mudanças no conteúdo de um arquivo:**
+```shell
+git diff
+```
+
