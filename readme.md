@@ -79,19 +79,29 @@ Adicionando um repositório que você criou no Github ou Gitlab:
 git remote add git@github.com:seunickname/seurepositotio.git
 ```
 
-## 3. Conceitos básicos
-
-### O conceito de staging area e commited.
+## 3. O conceito de staging area e commited.
 
 - **staging area:** área intermediária onde você prepara (stage) as alterações antes de confirmá-las (commit). 
 - **commit:** é o registro das alterações no repositório. É como um "snapshot", um marco em uma linha do tempo.
 - Qualquer arquivo que não foi adicionado ao registro, e também não está na staging area, são mostrados em vermelho.
 
 
-**Inserir arquivos na *staging area*:**
+**Inserir arquivos no stage:**
 
 ```shell
 git add nome-do-arquivo
+```
+
+**Retirando um arquivo do stage:**
+
+Um arquivo específico:
+```shell
+git reset nome do arquivo
+```
+
+Todos os arquivos:
+```shell
+git reset --
 ```
 
 **Gravar os arquivos no registro (commit)**:
