@@ -82,6 +82,19 @@ git remote add git@github.com:seunickname/seurepositotio.git
 
 ### O conceito de staging area e commited.
 
-- **staging area:** área intermediária onde você prepara (stage) as alterações antes de confirmá-las (commit). Os arquivos são inseridos na *staging area* atravéz do comando `git add nome-do-arquivo`.
-- **commit:** é o registro das alterações no repositório. É como um "snapshot", um marco em uma linha do tempo. Arquivos são *commitados* atravéz do comando `git commit`
+- **staging area:** área intermediária onde você prepara (stage) as alterações antes de confirmá-las (commit). 
+- **commit:** é o registro das alterações no repositório. É como um "snapshot", um marco em uma linha do tempo.
 - Qualquer arquivo que não foi adicionado ao registro, e também não está na staging area, são mostrados em vermelho.
+
+
+Os arquivos são inseridos na *staging area* atravéz do comando:
+
+```shell
+git add nome-do-arquivo
+```
+
+Arquivos são *commitados* atravéz do comando `git commit`
+
+```shell
+git commit -m "mensagem"
+```
