@@ -98,6 +98,8 @@ Um arquivo específico:
 ```shell
 git reset nome do arquivo
 ```
+Na verdade, o que esse comando faz é voltar o arquivo para como ele estava no commit anterior.
+
 
 Todos os arquivos:
 ```shell
