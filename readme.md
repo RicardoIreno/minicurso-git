@@ -9,6 +9,7 @@ Este documento é um resumo dos comandos mais usados no git, a ferramenta de con
 Este documento está salvo em formato markdown (.md), uma linguagem de marcação simples que permite o uso de formatação, links e imagens sem a necessidade de usar marcações mais complexas. 
 
 
+Exemplo das marcações em markdown:
 ```md
 # título principal
 ## título 2
